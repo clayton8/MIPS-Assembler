@@ -11,24 +11,20 @@ This will load a text file that contains mips instructions and convert
 it into machine code.
 
 Please see the ‘MIPS_Green_Sheet.pdf’ for what instructions it can
-convert. The only type of instructions that it will convert are:
+convert.This will assemble all the instruction in the core instruction set with the exception of:
 
-- R-Type
-- I-Type
+- j 
+- jal 
+
+instructions.
 
 The format for an input file is attached in ‘test_1.s’ and will output
 in a file called: ‘output.txt’
 
 The original project description is in Project1.docx
 
-## Running Project
-
-- Load this project into any C++ IDE
-
-- Build the project
-
-- Find the executable
+## Build
 
 - ./myAssembler <input.txt>
 
-- Find ‘Output.txt’
+- ‘Output.txt’
