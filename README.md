@@ -23,7 +23,7 @@ The original project description is in Project1.docx
 
 ## Running Project
 
-- Load this project into any C++ complier.
+- Load this project into any C++ IDE
 
 - Build the project
 
